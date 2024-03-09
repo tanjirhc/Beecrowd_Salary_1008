@@ -17,8 +17,8 @@ namespace Beecrowd_Salary_1008
             Amount = Convert.ToDouble(Console.ReadLine());
             
             Salary = Hour * Amount;
-            Console.WriteLine("NUMBER = " + n);
-            Console.WriteLine("SALARY = U$ " + Salary);
+            Console.WriteLine("NUMBER = {0}" , n);
+            Console.WriteLine("SALARY = U$ {0}" , Salary.ToString("0.00"));
             Console.ReadKey();
         }
     }
